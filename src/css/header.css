@@ -1,0 +1,36 @@
+nav {
+  justify-content: space-between;
+}
+
+img.logo {
+  width: 48px;
+  height: 48px;
+}
+
+img.search-icon {
+  width: 16px;
+  height: 16px;
+}
+
+
+nav a.link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 230);
+  font-size: 0.75em;
+  padding: 0 8px;
+}
+
+nav a.link:hover {
+  text-decoration: underline;
+  color: darkgray;
+}
+
+.row  {
+  display: flex;
+  align-items: center;
+}
+
+nav .orange-btn {
+  margin-left: 32px;
+}
+

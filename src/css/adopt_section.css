@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+#adopt-now {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5vh;
+  align-items: flex-end;
+}
+
+#adopt-now h3 {
+  font-family: 'Pacifico', cursive;
+  color: tomato;
+  font-size: 1.25em;
+}
+
+#adopt-now img {
+  max-width: 30%;
+  margin-left: 10%;
+}
+
+#adopt-now div {
+  width: 50%;
+}
+
+#adopt-now .orange-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+#adopt-now .orange-btn .material-icons {
+  padding-left: 16px;
+  transition: all 0.4s ease-in-out;
+}
+
+#adopt-now .orange-btn:hover .material-icons {
+  transform: scale(1.5);
+}
+
